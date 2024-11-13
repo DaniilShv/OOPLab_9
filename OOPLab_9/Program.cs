@@ -12,7 +12,7 @@ namespace OOPLab_9
         {
             LaboratoryWork lab = new LaboratoryWork();
             lab.Execute();
-            Console.WriteLine();
+            Console.WriteLine("");
         }
     }
 }
