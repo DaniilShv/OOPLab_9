@@ -20,7 +20,6 @@ namespace OOPLab_9
             menu.AddMenu(AddPointMenu("Преобразовать уравение к double", ExecPointMenu4, 1));
             menu.AddMenu(AddPointMenu("Сравнить уравнения", ExecPointMenu5, 1));
             menu.AddMenu(AddPointMenu("Показать уравнения", ExecPointMenu6, 1));
-
             menu.Execute();
         }
         PointMenu AddPointMenu(string text, ExecutePointMenu func)
